@@ -1,3 +1,3 @@
-node('mvn'){
+node('maven'){
     openshiftBuild(buildConfig: 'swarm')
 }
