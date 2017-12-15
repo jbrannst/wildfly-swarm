@@ -1,3 +1,5 @@
 node('maven'){
-    openshiftBuild(buildConfig: 'swarm')
+    stage ('Build') {
+        openshiftBuild(buildConfig: 'swarm')
+    }
 }
